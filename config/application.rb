@@ -13,7 +13,7 @@ module Myapp
     # defaultをajaxリクエストとして送信されるようにする
     # Rails6.1からデフォルトがHTMLリクエストに戻されているため、Ajaxリクエストにする
     # REF:https://techracho.bpsinc.jp/hachi8833/2021_01_22/103256
-    config.action_view.form_with_generates_remote_forms
+    config.action_view.form_with_generates_remote_forms = true
 
     # Configuration for the application, engines, and railties goes here.
     #
